@@ -35,6 +35,6 @@ def tableFromTom(url):
 
 map(tableFromTom, urls)
 
-#http://www.tomshardware.com/charts/cpu-charts-2012/-01-Cinebench-11.5,3142.html
-#http://www.tomshardware.com/charts/cpu-charts-2012/-38-System-Peak-Power,3178.html
-
+# examples: 
+#<> http://www.tomshardware.com/charts/cpu-charts-2012/-01-Cinebench-11.5,3142.html http://www.tomshardware.com/charts/cpu-charts-2012/-38-System-Peak-Power,3178.html
+# echo http://www.tomshardware.com/charts/cpu-charts-2012/-01-Cinebench-11.5,3142.html http://www.tomshardware.com/charts/cpu-charts-2012/-38-System-Peak-Power,3178.html | parallel <>
